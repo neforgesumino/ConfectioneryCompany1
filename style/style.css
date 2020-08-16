@@ -14,7 +14,7 @@ body {
 header {
     width: 100%;
     height: 650px;
-    background-image: linear-gradient(to top, rgba(223, 233, 243, 0.5) 0%, rgba(255, 255, 255, 0.1) 100%), url(slanted3.jpg);
+    background-image: linear-gradient(to top, rgba(223, 233, 243, 0.5) 0%, rgba(255, 255, 255, 0.1) 100%), url(/media/slanted3.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -145,6 +145,7 @@ header .button {
     left: 0;
     width: 100%;
     height: 100%;
+    background: #90A4AE;
 }
 
 .above h2 {
@@ -191,7 +192,7 @@ header .button {
 .fondo {
     height: 900px;
     position: relative;
-    background-image: url(backpic.jpg);
+    background-image: url('/media/backpic.jpg');
     overflow: hidden;
     background-attachment: fixed;
     background-position: center;
