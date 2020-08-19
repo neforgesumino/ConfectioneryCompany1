@@ -50,7 +50,7 @@ header .button {
     border-radius: 16px;
 }
 
-.sesgoabajo {
+.downward {
     z-index: 10;
     position: absolute;
     bottom: 0;
@@ -60,7 +60,7 @@ header .button {
     border-color: transparent transparent #fff transparent;
 }
 
-.sesgoarriba {
+.upward {
     z-index: 10;
     position: absolute;
     top: 0;
@@ -189,7 +189,7 @@ header .button {
     border-radius: 100%;
 }
 
-.fondo {
+.background {
     height: 900px;
     position: relative;
     background-image: url('../media/backpic.jpg');
@@ -199,7 +199,7 @@ header .button {
     padding-top: 130px;
 }
 
-.sesgoabajo-unic {
+.downward-unic {
     z-index: 10;
     position: absolute;
     bottom: 0;
@@ -313,7 +313,7 @@ input[type="submit"] {
     width: 96px;
 }
 
-/* Responsive */
+/* Adaptive */
 
 @media screen and (max-width:900px) {
     .card {
@@ -337,7 +337,7 @@ input[type="submit"] {
     .card {
         width: 90%;
     }
-    .fondo {
+    .background {
         height: auto;
     }
     .esp {
